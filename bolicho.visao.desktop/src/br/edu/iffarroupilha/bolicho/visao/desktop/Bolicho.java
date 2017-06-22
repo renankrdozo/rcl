@@ -48,7 +48,7 @@ public class Bolicho extends JFrame {
 		JMenuItem Aluno = new JMenuItem("Alunos");
 		//JMenuItem produto = new JMenuItem("Produtos");
 		//JMenuItem venda = new JMenuItem("Vendas");
-		// vincula ao menu cadastros
+		//vincula ao menu cadastros
 		cadastro.add(Aluno);
 		//cadastro.add(produto);
 		//cadastro.add(venda);

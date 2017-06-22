@@ -10,16 +10,18 @@ import br.edu.iffarroupilha.bolicho.modelo.Aluno;
 public class AlunoController {
 	private AlunoControle controle;
 	private Result result;
+	
 
 	public AlunoController(AlunoControle controle,
 			                           Result result) {
 		this.controle = controle;
 		this.result = result;
+	
 	}
 		
 	public void listar(){
 		List itens = controle.buscarTodos(Aluno.class);
-		result.include("Aluno", itens);
+		result.include("alunos", itens);
 	}
 	
 	

@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title> Alunos</title>
+<title> Aluno </title>
 <jsp:include page="../../../importacoes.jsp"/>
 
 <script type="text/javascript">
@@ -45,6 +45,7 @@
 		     <tr>
 		        <td> ${cli.matricula } </td>
 		        <td> ${cli.nome } </td>
+		      
 		     </tr>
 		   </c:forEach>
 	   </tbody>

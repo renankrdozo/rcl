@@ -41,8 +41,10 @@ public class frmAluno extends JFrame{
 		private void desenhaComponentes() {
 			JLabel lblmatricula = new JLabel("Matricula:");
 			JLabel lblNome = new JLabel("Nome:");
+			JLabel lblData = new JLabel("Data:");
 			final JTextField txtmatricula = new JTextField(30);
 			final JTextField txtNome = new JTextField(30);
+			final JTextField txtDate = new JTextField(30);
 			JButton btnGravar = new JButton("Gravar");
 
 			setLayout(new FlowLayout(FlowLayout.LEFT));
@@ -56,7 +58,6 @@ public class frmAluno extends JFrame{
 					c.setNome(txtNome.getText());
 					// converte para um valor numerico
 					int matricula = controle.converteInteiro(txtmatricula.getText());
-
 					c.setmatricula(matricula);
 
 					// valida os dados
