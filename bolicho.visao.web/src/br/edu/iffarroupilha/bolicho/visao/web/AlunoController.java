@@ -1,14 +1,14 @@
 package br.edu.iffarroupilha.bolicho.visao.web;
 
 import java.util.List;
-
 import br.com.caelum.vraptor.Resource;
 import br.com.caelum.vraptor.Result;
 import br.edu.iffarroupilha.bolicho.controle.AlunoControle;
 import br.edu.iffarroupilha.bolicho.modelo.Aluno;
 @Resource
 public class AlunoController {
-	private AlunoControle controle;
+	private AlunoControle
+	controle;
 	private Result result;
 	
 

@@ -18,11 +18,6 @@ public class AlunoControle  extends AControle {
 		return null;
 	}
 
-	public void gravar(Aluno c) {
-		// 
-		
-		
-	}
 
 	public int converteInteiro(String text) {
 		// TODO Auto-generated method stub

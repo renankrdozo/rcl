@@ -23,14 +23,19 @@
 	<form action="gravar"  >
 		<div class="form-group">
 			<label for="txtmatricula">Matricula:</label>
-			<input type="text" name="Aluno.matricula" id="txtmatricula"
+			<input type="text" name="aluno.matricula" id="txtmatricula"
 		   	class="form-control"   required >
 		</div>
 		
 		<div class="form-group">
 			<label for="txtNome">Nome:</label>
-			<input type="text" name="Aluno.nome" id="txtNome"
+			<input type="text" name="aluno.nome" id="txtNome"
 			class="form-control" required >
+		</div>
+		<div class="form-group">
+			<label for="txtData">Data Nascimento:</label>
+			<input type="date" name="aluno.data" id="txtData"
+		   	class="form-control"   required >
 		</div>
 		<div class="form-group">
 			<input type="submit" class="btn btn-success" value="gravar" >

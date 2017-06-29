@@ -45,6 +45,7 @@
 		     <tr>
 		        <td> ${cli.matricula } </td>
 		        <td> ${cli.nome } </td>
+		          
 		      
 		     </tr>
 		   </c:forEach>

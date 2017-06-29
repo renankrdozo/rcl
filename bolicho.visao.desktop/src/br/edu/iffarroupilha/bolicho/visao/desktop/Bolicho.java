@@ -59,6 +59,7 @@ public class Bolicho extends JFrame {
 				new frmAluno(Bolicho.this);
 			}
 		});
+	}
 
 		/*produto.addActionListener(new ActionListener() {
 
@@ -67,7 +68,7 @@ public class Bolicho extends JFrame {
 			}
 		});
 		
-		venda.addActionListener(new ActionListener() {
+		/*venda.addActionListener(new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(Bolicho.this, "Voce clicou!!! ");
@@ -75,9 +76,9 @@ public class Bolicho extends JFrame {
 		});*/
 
 		// adiciona o menu em tela
-		setJMenuBar(menu);
+		//setJMenuBar(menu);
 
-	}
+	//}
 
 	public static void main(String[] args) {
 		new Bolicho();
